@@ -24,17 +24,17 @@ namespace XMLWeather
             if (Form1.days[1].precipitation == "rain")
             {
                 Image image1 = Properties.Resources.rainy_weather2;
-                label1.Image = image1;
+                pictureBox1.Image = image1;
             }
             else if (Form1.days[1].precipitation == "snow")
             {
                 Image image2 = Properties.Resources.snowy_weather2;
-                label1.Image = image2;
+                pictureBox1.Image = image2;
             }
             else
             {
                 Image image3 = Properties.Resources.sunny_weather3;
-                label1.Image = image3;
+                pictureBox1.Image = image3;
             }
             min1.Text = Form1.days[1].tempLow + " °C";
             max1.Text = Form1.days[1].tempHigh + " °C";
@@ -44,17 +44,17 @@ namespace XMLWeather
             if (Form1.days[2].precipitation == "rain")
             {
                 Image image1 = Properties.Resources.rainy_weather2;
-                label6.Image = image1;
+                pictureBox3.Image = image1;
             }
             else if (Form1.days[2].precipitation == "snow")
             {
                 Image image2 = Properties.Resources.snowy_weather2;
-                label6.Image = image2;
+                pictureBox3.Image = image2;
             }
             else
             {
                 Image image3 = Properties.Resources.sunny_weather3;
-                label6.Image = image3;
+                pictureBox3.Image = image3;
             }
             min2.Text = Form1.days[2].tempLow + " °C";  
             max2.Text = Form1.days[2].tempHigh + " °C";
@@ -64,17 +64,17 @@ namespace XMLWeather
             if (Form1.days[3].precipitation == "rain")
             {
                 Image image1 = Properties.Resources.rainy_weather2;
-                label4.Image = image1;
+                pictureBox2.Image = image1;
             }
             else if (Form1.days[3].precipitation == "snow")
             {
                 Image image2 = Properties.Resources.snowy_weather2;
-                label4.Image = image2;
+                pictureBox2.Image = image2;
             }
             else
             {
                 Image image3 = Properties.Resources.sunny_weather3;
-                label4.Image = image3;
+                pictureBox2.Image = image3;
             }
             min3.Text = Form1.days[3].tempLow + " °C";
             max3.Text = Form1.days[3].tempHigh + " °C";
@@ -84,17 +84,17 @@ namespace XMLWeather
             if (Form1.days[4].precipitation == "rain")
             {
                 Image image1 = Properties.Resources.rainy_weather2;
-                label7.Image = image1;
+                pictureBox4.Image = image1;
             }
             else if (Form1.days[4].precipitation == "snow")
             {
                 Image image2 = Properties.Resources.snowy_weather2;
-                label7.Image = image2;
+                pictureBox4.Image = image2;
             }
             else
             {
                 Image image3 = Properties.Resources.sunny_weather3;
-                label7.Image = image3;
+                pictureBox4.Image = image3;
             }
             min4.Text = Form1.days[4].tempLow + " °C";
             max4.Text = Form1.days[4].tempHigh + " °C";
