@@ -23,19 +23,19 @@ namespace XMLWeather
             {
                 Image image1 = Properties.Resources.sunny_weather2;
 
-                conditionLabel.Image = image1;
+                pictureBox2.Image = image1;
             }
             else if (Form1.days[0].condition == "moderate rain" || Form1.days[0].condition == "light snow")
             {
                 Image image2 = Properties.Resources.rainy_weather;
 
-                conditionLabel.Image = image2;
+                pictureBox2.Image = image2;
             }
             else
             {
                 Image image3 = Properties.Resources.cloudy_weather;
 
-                conditionLabel.Image = image3;
+                pictureBox2.Image = image3;
             }
 
             cityOutput.Text = Form1.days[0].location;
