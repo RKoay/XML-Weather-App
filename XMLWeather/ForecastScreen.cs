@@ -109,10 +109,6 @@ namespace XMLWeather
             CurrentScreen cs = new CurrentScreen();
             f.Controls.Add(cs);
         }
-
-        private void label4_Click(object sender, EventArgs e)
-        {
-
-        }
+        
     }
 }
