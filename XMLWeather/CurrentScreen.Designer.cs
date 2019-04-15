@@ -185,8 +185,7 @@
             this.conditionLabel.BackColor = System.Drawing.Color.Transparent;
             this.conditionLabel.Font = new System.Drawing.Font("Museo Sans For Dell", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.conditionLabel.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.conditionLabel.Image = ((System.Drawing.Image)(resources.GetObject("conditionLabel.Image")));
-            this.conditionLabel.Location = new System.Drawing.Point(128, 377);
+            this.conditionLabel.Location = new System.Drawing.Point(128, 380);
             this.conditionLabel.Name = "conditionLabel";
             this.conditionLabel.Size = new System.Drawing.Size(579, 397);
             this.conditionLabel.TabIndex = 44;
@@ -203,9 +202,9 @@
             // pictureBox2
             // 
             this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox2.Location = new System.Drawing.Point(154, 451);
+            this.pictureBox2.Location = new System.Drawing.Point(223, 534);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(509, 285);
+            this.pictureBox2.Size = new System.Drawing.Size(331, 228);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 46;
             this.pictureBox2.TabStop = false;
