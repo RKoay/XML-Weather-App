@@ -206,7 +206,7 @@
             // 
             this.max2.BackColor = System.Drawing.Color.MistyRose;
             this.max2.Font = new System.Drawing.Font("Franklin Gothic Medium", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.max2.Location = new System.Drawing.Point(169, 1001);
+            this.max2.Location = new System.Drawing.Point(160, 1001);
             this.max2.Margin = new System.Windows.Forms.Padding(8, 0, 8, 0);
             this.max2.Name = "max2";
             this.max2.Size = new System.Drawing.Size(235, 76);
@@ -307,7 +307,7 @@
             this.max4.BackColor = System.Drawing.Color.Black;
             this.max4.Font = new System.Drawing.Font("Franklin Gothic Medium", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.max4.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.max4.Location = new System.Drawing.Point(571, 994);
+            this.max4.Location = new System.Drawing.Point(542, 1002);
             this.max4.Margin = new System.Windows.Forms.Padding(8, 0, 8, 0);
             this.max4.Name = "max4";
             this.max4.Size = new System.Drawing.Size(221, 75);

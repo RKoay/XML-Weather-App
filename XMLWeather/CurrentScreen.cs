@@ -41,8 +41,8 @@ namespace XMLWeather
             cityOutput.Text = Form1.days[0].location;
             dateLabel.Text = Form1.days[0].date;
             tempLabel.Text = Convert.ToDouble(Form1.days[0].currentTemp).ToString("0.0") + " °C";
-            minOutput.Text = Form1.days[0].tempLow + " °C";
-            maxOutput.Text = Form1.days[0].tempHigh + " °C";
+            minOutput.Text = Convert.ToDouble(Form1.days[0].tempLow).ToString("0.0") + " °C";
+            maxOutput.Text = Convert.ToDouble(Form1.days[0].tempHigh).ToString("0.0") + " °C";
             conditionLabel.Text = Form1.days[0].condition;
         }
 

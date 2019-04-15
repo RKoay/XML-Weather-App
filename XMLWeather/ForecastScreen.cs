@@ -36,8 +36,9 @@ namespace XMLWeather
                 Image image3 = Properties.Resources.sunny_weather3;
                 pictureBox1.Image = image3;
             }
-            min1.Text = Form1.days[1].tempLow + " °C";
-            max1.Text = Form1.days[1].tempHigh + " °C";
+            //Convert.ToDouble(Form1.days[0].currentTemp).ToString("0.0") + " °C"
+            min1.Text = Convert.ToDouble(Form1.days[1].tempLow).ToString("0.0") + " °C";
+            max1.Text = Convert.ToDouble(Form1.days[1].tempHigh).ToString("0.0") + " °C";
 
             date2.Text = Form1.days[2].date;
             conditionLabel2.Text = Form1.days[2].condition;
@@ -56,8 +57,8 @@ namespace XMLWeather
                 Image image3 = Properties.Resources.sunny_weather3;
                 pictureBox3.Image = image3;
             }
-            min2.Text = Form1.days[2].tempLow + " °C";  
-            max2.Text = Form1.days[2].tempHigh + " °C";
+            min2.Text = Convert.ToDouble(Form1.days[2].tempLow).ToString("0.0") + " °C";
+            max2.Text = Convert.ToDouble(Form1.days[2].tempHigh).ToString("0.0") + " °C";
 
             date3.Text = Form1.days[3].date;
             conditionLabel3.Text = Form1.days[3].condition;
@@ -76,8 +77,8 @@ namespace XMLWeather
                 Image image3 = Properties.Resources.sunny_weather3;
                 pictureBox2.Image = image3;
             }
-            min3.Text = Form1.days[3].tempLow + " °C";
-            max3.Text = Form1.days[3].tempHigh + " °C";
+            min3.Text = Convert.ToDouble(Form1.days[3].tempLow).ToString("0.0") + " °C";
+            max3.Text = Convert.ToDouble(Form1.days[3].tempHigh).ToString("0.0") + " °C";
 
             date4.Text = Form1.days[4].date;
             conditionLabel4.Text = Form1.days[4].condition;
@@ -96,9 +97,9 @@ namespace XMLWeather
                 Image image3 = Properties.Resources.sunny_weather3;
                 pictureBox4.Image = image3;
             }
-            min4.Text = Form1.days[4].tempLow + " °C";
-            max4.Text = Form1.days[4].tempHigh + " °C";
-            
+            min4.Text = Convert.ToDouble(Form1.days[4].tempLow).ToString("0.0") + " °C";
+            max4.Text = Convert.ToDouble(Form1.days[4].tempHigh).ToString("0.0") + " °C";
+
         }
 
         private void label3_Click(object sender, EventArgs e)
